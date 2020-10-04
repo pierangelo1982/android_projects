@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- START ACTIVITY -->
+    <style name="start_activity_title">
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">30dp</item>
+    </style>
+
+    <style name="start_label">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="start_spinner">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- fine activity -->
+    <style name="txt_note">
+        <item name="android:background">#cccccc</item>
+    </style>
+
+
+    <!-- customer add form -->
+    <style name="label_add_customer">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="edit_add_customer">
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+
+    <!-- customer dettaglio -->
+    <style name="customer_dettaglio_denominazione">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="customer_indirizzo">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+</resources>

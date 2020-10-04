@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">WorkReport</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prova_testo">Prova</string>
+    <string name="title_activity_start">StartActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="clienti">Lista Clienti</string>
+    <string name="customer_add">Aggiungi Cliente</string>
+    <string name="start_end">Inizio/Fine</string>
+    <string name="storico_operazioni">Storico Operazioni</string>
+    <string name="lista_storico_operazioni">Lista Storico Operazioni</string>
+    <string name="ciao_inio">ciao ciao inizio e fine</string>
+    <string name="Hello_World">Hello World!</string>
+    <string name="storico_operazioni_ok">Storico Operazioni</string>
+    <string name="aggiungi_cliente">Aggiungi</string>
+    <string name="btn_aggiungi">Aggiungi</string>
+    <string name="label_add_customer_piva">P.iva</string>
+    <string name="label_add_customer_denominazione">Denominazione</string>
+    <string name="label_add_customer_indirizzo">Indirizzo</string>
+    <string name="label_add_customer_numero_civico">Numero Civico</string>
+    <string name="label_add_customer_cap">Cap</string>
+    <string name="label_add_customer_citta">Citta</string>
+    <string name="label_add_customer_codice_fiscale">Codice Fiscale</string>
+    <string name="label_add_customer_telefono">Telefono</string>
+    <string name="label_add_customer_fax">Fax</string>
+    <string name="label_add_customer_email">email</string>
+    <string name="label_add_customer_sito_internet">Sito Internet</string>
+    <string name="modifica_cliente">modifica cliente</string>
+    <string name="start_cliente_title">Cliente</string>
+    <string name="fine_inizio_task_label">inizio Task:</string>
+    <string name="fine_task_title">Fine Task</string>
+    <string name="fine_fragment_label_note">Note:</string>
+    <string name="btn_concludi_task">Concludi Task</string>
+</resources>

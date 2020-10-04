@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">YouthHostelsLombardy</string>
+
+    <string name="hello_world">YOUTH HOSTELS LOMBARDY</string>
+    <string name="thanks">Dati forniti da dati.lombardia.it</string>
+    <string name="thanksmeteo">Dati meteo forniti openweathermap.org</string>
+    <string name="bottoneentra">Take a Look at the list</string>
+    <string name="bottonemappa">Take a Look at the map</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_indice">IndiceActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

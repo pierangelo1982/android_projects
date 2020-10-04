@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">WiFiBergamo</string>
+
+    <string name="hello_world">PUNTI WI-FI A BERGAMO</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_indice">IndiceActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

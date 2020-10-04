@@ -1,0 +1,111 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="?android:windowBackground"
+             tools:context="com.sviluppo.pierangelo.workreport.Fragment.FineFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:text="@string/fine_task_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:id="@+id/txt_titolo_fragment_fine"
+            style="@style/start_activity_title"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment_fine_data_inizio"
+            style="@style/start_label"
+            android:layout_alignBaseline="@+id/label_inizio_task_fragment_fine"
+            android:layout_alignBottom="@+id/label_inizio_task_fragment_fine"
+            android:layout_alignLeft="@+id/btnFineTask"
+            android:layout_alignStart="@+id/btnFineTask"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"/>
+
+        <Button
+            android:text="@string/btn_concludi_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnFineTask"
+            android:layout_marginBottom="116dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:text="Note:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="39dp"
+            android:id="@+id/label_note_fragment_fine"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp"
+            android:layout_below="@+id/label_inizio_task_fragment_fine"
+            style="@style/start_label"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/fragment_fine_note"
+            style="@style/txt_note"
+            android:layout_below="@+id/label_note_fragment_fine"
+            android:layout_alignBottom="@+id/btnFineTask"
+            android:layout_marginBottom="47dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="11dp"
+            android:layout_marginEnd="11dp"
+            android:layout_alignLeft="@+id/label_note_fragment_fine"
+            android:layout_alignStart="@+id/label_note_fragment_fine"/>
+
+        <TextView
+            android:text="@string/fine_inizio_task_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_inizio_task_fragment_fine"
+            style="@style/start_label"
+            android:layout_marginTop="12dp"
+            android:layout_below="@+id/txt_titolo_fragment_fine"
+            android:layout_alignLeft="@+id/label_note_fragment_fine"
+            android:layout_alignStart="@+id/label_note_fragment_fine"/>
+
+        <TextView
+            android:text="Ora Inizio:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/label_inizio_task_fragment_fine"
+            android:layout_alignLeft="@+id/label_note_fragment_fine"
+            android:layout_alignStart="@+id/label_note_fragment_fine"
+            android:layout_marginTop="11dp"
+            android:id="@+id/label_ora_inizio_fine_fragment"
+            style="@style/start_label"/>
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/label_ora_inizio_fine_fragment"
+            android:layout_alignLeft="@+id/fragment_fine_data_inizio"
+            android:layout_alignStart="@+id/fragment_fine_data_inizio"
+            android:id="@+id/ora_fine_fragment"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            style="@style/start_label"/>
+    </RelativeLayout>
+</FrameLayout>
